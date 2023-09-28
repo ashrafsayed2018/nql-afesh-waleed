@@ -66,6 +66,18 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:label1" content="كُتب بواسطة" />
     <meta name="twitter:data1" content="admin" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script type="application/ld+json" class="yoast-schema-graph">
       {
         "@context": "https://schema.org",
@@ -729,7 +741,6 @@
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-12 current_page_item menu-item-109"
               >
                 <a href="/" aria-current="page">الرئيسية</a>
-                >
               </li>
               <li
                 id="menu-item-109"
@@ -1000,15 +1011,33 @@
     <!--end footer-->
 
     <!--start contact section-->
-    <div class="contact">
-      <ul>
-        <a href="https://api.whatsapp.com/send?phone=9650534356753"
-          ><li class="whats"><span>WhatsApp</span></li></a
+    <div class="fixed z-50" style="bottom: 80px; left: 10px">
+      <a href="tel:0534356753" class="call flex items-center">
+        <div
+          class="bg-blue-600 h-12 w-12 rounded-full flex items-center justify-center -ml-2"
         >
-        <a href="tel:0534356753"
-          ><li class="call"><span>Phone Call</span></li></a
+          <i class="fa fa-phone text-white"></i>
+        </div>
+        <span
+          class="bg-blue-600 text-white font-bold px-2 py-1 inline-block w-20 text-center"
+          >اتصل الان</span
         >
-      </ul>
+      </a>
+      <a
+        href="https://api.whatsapp.com/send?phone=966534356753"
+        class="whatsapp flex items-center mt-8"
+      >
+        <div
+          class="bg-green-600 h-12 w-12 rounded-full flex items-center justify-center -ml-2"
+        >
+          <i class="fa fa-phone text-white"></i>
+        </div>
+        <span
+          class="bg-green-600 text-white font-bold px-2 py-1 inline-block w-20 text-center"
+        >
+          واتساب
+        </span>
+      </a>
     </div>
     <!--end call section-->
   </body>
